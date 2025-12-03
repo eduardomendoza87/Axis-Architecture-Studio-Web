@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Definición del Tema AXIS (Tokens de Diseño) */
+@theme {
+  /*  Tipografías */
+  --font-sans: 'Manrope', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Colores: Concrete Scale */
+  --color-concrete-50: #F9FAFB;
+  --color-concrete-100: #F3F4F6;
+  --color-concrete-200: #E5E5E5; /* Bordes */
+  --color-concrete-500: #6B7280;
+  --color-concrete-900: #111827;
+
+  /*  Colores: Brand */
+  --color-primary: #0047AB;      /* Azul Blueprint */
+  --color-primary-light: #2E67D1;
+  --color-signal-orange: #FF4500;
+}
+
+/* Estilos Base Globales */
+@layer base {
+  body {
+    background-color: var(--color-concrete-50);
+    color: var(--color-concrete-900);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
