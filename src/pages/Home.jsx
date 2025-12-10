@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // Images
-import heroImage from '../assets/Home/Hero_Imagen_Axis.webp';
+import heroImage from '../assets/Home/hero-main.webp';
 import filosofiaImage1 from '../assets/Home/Home_image.webp';
 import filosofiaImage2 from '../assets/Home/Home_image_1.webp';
 import filosofiaImage3 from '../assets/Home/Home_image_2.webp';
