@@ -12,7 +12,7 @@ import filosofiaImage5 from '../assets/home-assets/home_image_4.webp';
 // Data
 import { teamMembers } from '../data/home';
 
-// Components
+// Componentes
 import InfiniteCarousel from '../components/ui/InfiniteCarousel';
 import WorkLocations from '../components/ui/WorkLocations';
 import CardFeaturedProjects from '../components/ui/CardfeaturedProjects';
