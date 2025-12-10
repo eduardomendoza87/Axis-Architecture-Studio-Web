@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // Images
-import heroImage from '../assets/home/Hero_Imagen_Axis.jpg';
-import filosofiaImage1 from '../assets/home/Home_image.jpg';
-import filosofiaImage2 from '../assets/home/Home_image_1.jpg';
-import filosofiaImage3 from '../assets/home/Home_image_2.jpg';
-import filosofiaImage4 from '../assets/home/Home_image_3.jpg';
-import filosofiaImage5 from '../assets/home/Home_image_4.jpg';
+import heroImage from '../assets/home/Hero_Imagen_Axis.webp';
+import filosofiaImage1 from '../assets/home/Home_image.webp';
+import filosofiaImage2 from '../assets/home/Home_image_1.webp';
+import filosofiaImage3 from '../assets/home/Home_image_2.webp';
+import filosofiaImage4 from '../assets/home/Home_image_3.webp';
+import filosofiaImage5 from '../assets/home/Home_image_4.webp';
 
 // Data
 import { teamMembers } from '../data/home';

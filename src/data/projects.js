@@ -1,5 +1,5 @@
+// IMPORTACIÓN DE IMÁGENES DE PROYECTOS
 
-// IMPORTAR IMÁGENES 
 // Proyecto 1 - Casa moderna maderera
 import proyecto1_main from '../assets/proyecto1/Proyecto_destacado_1.webp';
 import proyecto1_1 from '../assets/proyecto1/Proyecto_1_1.webp';
