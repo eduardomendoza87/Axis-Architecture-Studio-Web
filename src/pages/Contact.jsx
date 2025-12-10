@@ -48,7 +48,7 @@ const Contact = () => {
                 <div>
                   <p className='text-concrete-400 mb-1 uppercase text-xs'>Contacto</p>
                   <p className='text-concrete-900 font-bold hover:text-primary cursor-pointer'>(+52) 993 123 4567</p>
-                  <p className='text-concrete-900 hover:text-primary cursor-pointer'>hola@axisarquitectura.com</p>
+                  <p className='text-concrete-900 hover:text-primary cursor-pointer'>@axisarquitectura.com</p>
                 </div>
               </div>
             </div>

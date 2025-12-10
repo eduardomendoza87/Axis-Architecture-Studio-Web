@@ -1,5 +1,6 @@
 import { Outlet, useLocation, useNavigate } from 'react-router-dom';
 import Navbar from '../Navbar';
+import Footer from '../Footer';
 
 export default function MainLayout() {
   const navigate = useNavigate();
@@ -29,9 +30,7 @@ export default function MainLayout() {
       <main className="flex-grow">
         <Outlet /> 
       </main>
-      <footer className="p-4 text-center font-mono text-xs">
-        AXIS FOOTER
-      </footer>
+      <Footer />
     </div>
   )
 }

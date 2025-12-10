@@ -62,7 +62,7 @@ const Projects = () => {
       </section>
 
       {/* FILTROS */}
-      <section className="py-8 px-6 bg-white border-b border-concrete-200">
+      <section className="py-8 px-6 ">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-wrap gap-3">
             {filters.map((filter) => (

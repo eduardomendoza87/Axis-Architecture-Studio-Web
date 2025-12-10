@@ -15,26 +15,31 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="w-full bg-concrete-50 ">
-      <div className="max-w-7xl mx-auto px-6 py-6">
-        <div className="flex items-center justify-between">
-          {/* Logo */}
+    <nav className="w-full bg-concrete-50 sticky top-0 z-50 border-b border-concrete-200">
+      <div className="max-w-7xl mx-auto px-4 py-4 md:px-6 md:py-6">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0">
+          
+          {/* LOGO  */}
           <Link to="/" className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-concrete-900">
-              Axis <span className="font-light">Studio</span>
+            <h1 className="text-xl md:text-2xl font-bold text-concrete-900">
+              Axis <span className="font-light text-concrete-500">Studio</span>
             </h1>
           </Link>
 
-          {/* Tabs Navigation */}
-          <div className="flex gap-2 bg-concrete-100 p-1 rounded-2xl">
+          {/* TABS NAVIGATION */}
+          <div className="flex w-full md:w-auto justify-center gap-1 bg-concrete-100 p-1 rounded-2xl border border-concrete-200">
             {tabs.map((tab) => (
               <Link
                 key={tab.id}
                 to={tab.path}
                 className={`
-                  px-6 py-2 rounded-xl font-medium transition-all duration-300
+                  flex-1 md:flex-none text-center
+                  px-3 py-2 md:px-6 md:py-2 
+                  text-xs md:text-sm font-medium 
+                  rounded-xl transition-all duration-300
+                  whitespace-nowrap
                   ${isActive(tab.path)
-                    ? 'bg-concrete-900 text-white'
+                    ? 'bg-concrete-900 text-white shadow-sm'
                     : 'text-concrete-500 hover:text-concrete-900'
                   }
                 `}
@@ -43,8 +48,7 @@ export default function Navbar() {
               </Link>
             ))}
           </div>
-
-          <div className="flex-shrink-0 w-20"></div>
+          <div className="hidden md:block w-20"></div>
         </div>
       </div>
     </nav>
