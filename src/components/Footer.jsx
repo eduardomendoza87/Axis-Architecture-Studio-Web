@@ -32,7 +32,7 @@ const Footer = () => {
                         <h3 className="font-mono text-xs uppercase tracking-widest text-concrete-400 mb-6">Contacto</h3>
                         <ul className="space-y-3 text-sm text-concrete-600">
                             <li>
-                                <a href="mailto:hola@axis.com" className="hover:text-primary transition-colors">hola@axisarquitectura.com</a>
+                                <a href="mailto:@axisarquitectura.com" className="hover:text-primary transition-colors">@axisarquitectura.com</a>
                             </li>
                             <li>
                                 <a href="tel:+529931234567" className="hover:text-primary transition-colors">(+52) 993 123 4567</a>

@@ -1,23 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-import { featuredProjects } from "../../data/home";
-
-
+import { projects } from "../../data/projects";
 
 export default function CardFeaturedProjects() {
+  
+  const featuredIds = [1, 2, 7];
+  const featured = projects.filter(p => featuredIds.includes(p.id));
+
   return (
-    <section className="py-16 px-6 ">
+    <section className="py-16 px-6 bg-concrete-50">
       <div className="max-w-7xl mx-auto">
         {/* Título de sección */}
-        <h2 className="text-4xl font-bold mb-16 text-center text-concrete-900 font-sans">
-          Proyectos destacados
+        <h2 className="text-4xl font-bold mb-16 text-center text-concrete-900 font-sans tracking-tight">
+          Proyectos Seleccionados
         </h2>
 
-        {/* Contenedor de proyectos alternados */}
+        {/* Contenedor */}
         <div className="space-y-24">
-          {featuredProjects.map((project, index) => {
-            // Alternar: par = imagen derecha, impar = imagen izquierda
+          {featured.map((project, index) => {
             const isEven = index % 2 === 0;
 
             return (
@@ -30,45 +30,37 @@ export default function CardFeaturedProjects() {
               >
                 {/* TEXTO */}
                 <div className={`space-y-6 ${isEven ? "" : "lg:col-start-2"}`}>
-                  <h3 className="text-2xl font-bold font-sans text-concrete-900">
+                  <h3 className="text-3xl font-bold font-sans text-concrete-900 leading-tight">
                     {project.title}
                   </h3>
 
                   {/* Badge de categoría */}
-                  <span className="inline-block px-4 py-2 bg-concrete-200 text-concrete-500 text-sm font-mono rounded">
-                    {project.categoria}
+                  <span className="inline-block px-3 py-1 border border-concrete-300 text-concrete-600 text-xs font-mono uppercase tracking-widest rounded-full">
+                    {project.type}{" "}
                   </span>
 
                   {/* Ubicación */}
-                  <p className="text-concrete-600 text-lg">
-                    {project.location}
+                  <p className="text-concrete-500 font-mono text-sm uppercase tracking-wide">
+                    {project.location} — {project.year}
                   </p>
 
-                  {/* Año */}
-                  <p className="text-concrete-500 font-medium">
-                    {project.year}
+                  {/* Descripción corta */}
+                  <p className="text-concrete-600 font-light leading-relaxed line-clamp-3">
+                    {project.description}
                   </p>
 
                   {/* Botón */}
-                  <Link
-                    to={`/projects/${project.id}`}
-                    className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:gap-4 transition-all duration-300"
-                  >
-                    Ver proyecto
-                    <svg
-                      className="w-4 h-4"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
+                  <div className="pt-4">
+                    <Link
+                      to={`/proyectos/${project.slug}`}
+                      className="group inline-flex items-center gap-2 text-primary font-bold hover:gap-4 transition-all duration-300"
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9 5l7 7-7 7"
-                      />
-                    </svg>
-                  </Link>
+                      Explorar Proyecto
+                      <span className="text-xl group-hover:translate-x-1 transition-transform">
+                        →
+                      </span>
+                    </Link>
+                  </div>
                 </div>
 
                 {/* IMAGEN */}
@@ -77,36 +69,35 @@ export default function CardFeaturedProjects() {
                     isEven ? "lg:col-start-2" : "lg:col-start-1 lg:row-start-1"
                   }`}
                 >
-                  <div className="relative rounded-3xl overflow-hidden shadow-2xl group">
-                    {/* Fondo azul decorativo */}
-                    <div className="absolute inset-0 bg-primary-light rounded-3xl transform translate-x-4 translate-y-4 -z-10" />
-
-                    {/* Imagen */}
+                  <Link
+                    to={`/proyectos/${project.slug}`}
+                    className="block relative rounded-sm overflow-hidden group cursor-pointer aspect-4/3"
+                  >
+                    {/* Imagen con efecto Zoom */}
                     <img
-                      src={project.image}
+                      src={project.photo}
                       alt={project.title}
-                      className="w-full h-[400px] object-cover rounded-3xl transition-transform duration-700 group-hover:scale-105"
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
 
-                    {/* Overlay hover */}
-                    <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-3xl" />
-                  </div>
+                    {/* Overlay sutil al hover */}
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"></div>
+                  </Link>
                 </div>
               </div>
             );
           })}
         </div>
-        <div className="flex items-center justify-center mb-4 gap-4 mt-12 ">
+
+        <div className="flex items-center justify-center mt-20">
           <Link
             to="/proyectos"
             className="
-    bg-primary-light rounded-2xl px-4 py-3 font-sans text-concrete-100
-    shadow-lg shadow-primary/50
-    hover:bg-primary-hover 
-    hover:scale-105 transition-all duration-300
-    "
+              px-8 py-4 bg-concrete-900 text-white font-mono uppercase text-xs tracking-widest
+              hover:bg-primary transition-colors duration-300
+            "
           >
-            Ver todos los proyectos
+            Ver proyectos
           </Link>
         </div>
       </div>
