@@ -28,13 +28,13 @@ import proyecto3_5 from '../assets/proyecto3/Proyecto_3_5.webp';
 import proyecto3_6 from '../assets/proyecto3/Proyecto_3_6.webp';
 
 // Proyecto 4 - Edificio Urbano
-import proyecto4_main from '../assets/proyecto4/Proyecto_destacado_4.webp';
-import proyecto4_1 from '../assets/proyecto4/Proyecto_4_1.webp';
-import proyecto4_2 from '../assets/proyecto4/Proyecto_4_2.webp';
-import proyecto4_3 from '../assets/proyecto4/Proyecto_4_3.webp';
-import proyecto4_4 from '../assets/proyecto4/Proyecto_4_4.webp';
-import proyecto4_5 from '../assets/proyecto4/Proyecto_4_5.webp';
-import proyecto4_6 from '../assets/proyecto4/Proyecto_4_6.webp';
+import proyecto4_main from '../assets/proyecto4/4-main.webp';
+import proyecto4_1 from '../assets/proyecto4/4-1.webp';
+import proyecto4_2 from '../assets/proyecto4/4-2.webp';
+import proyecto4_3 from '../assets/proyecto4/4-3.webp';
+import proyecto4_4 from '../assets/proyecto4/4-4.webp';
+import proyecto4_5 from '../assets/proyecto4/4-5.webp';
+import proyecto4_6 from '../assets/proyecto4/4-6.webp';
 
 // Proyecto 5 - Casa Zen
 import proyecto5_main from '../assets/proyecto5/Proyecto_destacado_5.webp';
