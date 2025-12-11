@@ -6,7 +6,6 @@ const Contact = () => {
   const form = useRef(); // Referencia al formulario para EmailJS
   const [projectType, setProjectType] = useState('Residencial');
   
-  // Estados para feedback visual (UX)
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [status, setStatus] = useState(null); 
 
@@ -71,7 +70,7 @@ const Contact = () => {
                 <div>
                   <p className='text-concrete-400 mb-1 uppercase text-xs'>Contacto</p>
                   <p className='text-concrete-900 font-bold'>(+52) 993 123 4567</p>
-                  <p className='text-concrete-900'>hola@axisarquitectura.com</p>
+                  <p className='text-concrete-900'>@axisarquitectura.com</p>
                 </div>
               </div>
             </div>
@@ -83,7 +82,6 @@ const Contact = () => {
                 
                 <form ref={form} onSubmit={sendEmail} className='space-y-10'>
                   
-                  {/* TRUCO: Input oculto para enviar el estado de React (projectType) */}
                   <input type="hidden" name="project_type" value={projectType} />
 
                   <div className="group">
