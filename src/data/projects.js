@@ -1,31 +1,31 @@
 // IMPORTACIÓN DE IMÁGENES DE PROYECTOS
 
 // Proyecto 1 - Casa moderna maderera
-import proyecto1_main from '../assets/proyecto1/Proyecto_destacado_1.webp';
-import proyecto1_1 from '../assets/proyecto1/Proyecto_1_1.webp';
-import proyecto1_2 from '../assets/proyecto1/Proyecto_1_2.webp';
-import proyecto1_3 from '../assets/proyecto1/Proyecto_1_3.webp';
-import proyecto1_4 from '../assets/proyecto1/Proyecto_1_4.webp';
-import proyecto1_5 from '../assets/proyecto1/Proyecto_1_6.webp';
-import proyecto1_6 from '../assets/proyecto1/Proyecto_1_7.webp';
+import proyecto1_main from '../assets/proyecto1/1-main.webp';
+import proyecto1_1 from '../assets/proyecto1/1-1.webp';
+import proyecto1_2 from '../assets/proyecto1/1-2.webp';
+import proyecto1_3 from '../assets/proyecto1/1-3.webp';
+import proyecto1_4 from '../assets/proyecto1/1-4.webp';
+import proyecto1_5 from '../assets/proyecto1/1-5.webp';
+import proyecto1_6 from '../assets/proyecto1/1-6.webp';
 
 // Proyecto 2 - Torre Residencial
-import proyecto2_main from '../assets/proyecto2/Proyecto_destacado_2.webp';
-import proyecto2_1 from '../assets/proyecto2/Proyecto_2_1.webp';
-import proyecto2_2 from '../assets/proyecto2/Proyecto_2_2.webp';
-import proyecto2_3 from '../assets/proyecto2/Proyecto_2_3.webp';
-import proyecto2_4 from '../assets/proyecto2/Proyecto_2_4.webp';
-import proyecto2_5 from '../assets/proyecto2/Proyecto_2_5.webp';
-import proyecto2_6 from '../assets/proyecto2/Proyecto_2_6.webp';
+import proyecto2_main from '../assets/proyecto2/2-main.webp';
+import proyecto2_1 from '../assets/proyecto2/2-1.webp';
+import proyecto2_2 from '../assets/proyecto2/2-2.webp';
+import proyecto2_3 from '../assets/proyecto2/2-3.webp';
+import proyecto2_4 from '../assets/proyecto2/2-4.webp';
+import proyecto2_5 from '../assets/proyecto2/2-5.webp';
+import proyecto2_6 from '../assets/proyecto2/2-6.webp';
 
 // Proyecto 3 - Casa ladrillo
-import proyecto3_main from '../assets/proyecto3/Proyecto_destacado_3.webp';
-import proyecto3_1 from '../assets/proyecto3/Proyecto_3_1.webp';
-import proyecto3_2 from '../assets/proyecto3/Proyecto_3_2.webp';
-import proyecto3_3 from '../assets/proyecto3/Proyecto_3_3.webp';
-import proyecto3_4 from '../assets/proyecto3/Proyecto_3_4.webp';
-import proyecto3_5 from '../assets/proyecto3/Proyecto_3_5.webp';
-import proyecto3_6 from '../assets/proyecto3/Proyecto_3_6.webp';
+import proyecto3_main from '../assets/proyecto3/3-main.webp';
+import proyecto3_1 from '../assets/proyecto3/3-1.webp';
+import proyecto3_2 from '../assets/proyecto3/3-2.webp';
+import proyecto3_3 from '../assets/proyecto3/3-3.webp';
+import proyecto3_4 from '../assets/proyecto3/3-4.webp';
+import proyecto3_5 from '../assets/proyecto3/3-5.webp';
+import proyecto3_6 from '../assets/proyecto3/3-6.webp';
 
 // Proyecto 4 - Edificio Urbano
 import proyecto4_main from '../assets/proyecto4/4-main.webp';
@@ -37,31 +37,31 @@ import proyecto4_5 from '../assets/proyecto4/4-5.webp';
 import proyecto4_6 from '../assets/proyecto4/4-6.webp';
 
 // Proyecto 5 - Casa Zen
-import proyecto5_main from '../assets/proyecto5/Proyecto_destacado_5.webp';
-import proyecto5_1 from '../assets/proyecto5/Proyecto_5_1.webp';
-import proyecto5_2 from '../assets/proyecto5/Proyecto_5_2.webp';
-import proyecto5_3 from '../assets/proyecto5/Proyecto_5_3.webp';
-import proyecto5_4 from '../assets/proyecto5/Proyecto_5_4.webp';
-import proyecto5_5 from '../assets/proyecto5/Proyecto_5_5.webp';
-import proyecto5_6 from '../assets/proyecto5/Proyecto_5_6.webp';
+import proyecto5_main from '../assets/proyecto5/5-main.webp';
+import proyecto5_1 from '../assets/proyecto5/5-1.webp';
+import proyecto5_2 from '../assets/proyecto5/5-2.webp';
+import proyecto5_3 from '../assets/proyecto5/5-3.webp';
+import proyecto5_4 from '../assets/proyecto5/5-4.webp';
+import proyecto5_5 from '../assets/proyecto5/5-5.webp';
+import proyecto5_6 from '../assets/proyecto5/5-6.webp';
 
 // Proyecto 6 - Diseño de interior minimalista
-import proyecto6_main from '../assets/proyecto6/Proyecto_destacado_6.webp';
-import proyecto6_1 from '../assets/proyecto6/Proyecto_6_1.webp';
-import proyecto6_2 from '../assets/proyecto6/Proyecto_6_2.webp';
-import proyecto6_3 from '../assets/proyecto6/Proyecto_6_3.webp';
-import proyecto6_4 from '../assets/proyecto6/Proyecto_6_4.webp';
-import proyecto6_5 from '../assets/proyecto6/Proyecto_6_5.webp';
-import proyecto6_6 from '../assets/proyecto6/Proyecto_6_6.webp';
+import proyecto6_main from '../assets/proyecto6/6-main.webp';
+import proyecto6_1 from '../assets/proyecto6/6-1.webp';
+import proyecto6_2 from '../assets/proyecto6/6-2.webp';
+import proyecto6_3 from '../assets/proyecto6/6-3.webp';
+import proyecto6_4 from '../assets/proyecto6/6-4.webp';
+import proyecto6_5 from '../assets/proyecto6/6-5.webp';
+import proyecto6_6 from '../assets/proyecto6/6-6.webp';
 
 // Proyecto 7 - Edificio Residencial Esmeralda
-import proyecto7_main from '../assets/proyecto7/Proyecto_destacado_7.webp';
-import proyecto7_1 from '../assets/proyecto7/Proyecto_7_1.webp';
-import proyecto7_2 from '../assets/proyecto7/Proyecto_7_2.webp';
-import proyecto7_3 from '../assets/proyecto7/Proyecto_7_3.webp';
-import proyecto7_4 from '../assets/proyecto7/Proyecto_7_4.webp';
-import proyecto7_5 from '../assets/proyecto7/Proyecto_7_5.webp';
-import proyecto7_6 from '../assets/proyecto7/Proyecto_7_6.webp';
+import proyecto7_main from '../assets/proyecto7/7-main.webp';
+import proyecto7_1 from '../assets/proyecto7/7-1.webp';
+import proyecto7_2 from '../assets/proyecto7/7-2.webp';
+import proyecto7_3 from '../assets/proyecto7/7-3.webp';
+import proyecto7_4 from '../assets/proyecto7/7-4.webp';
+import proyecto7_5 from '../assets/proyecto7/7-5.webp';
+import proyecto7_6 from '../assets/proyecto7/7-6.webp';
 
 
 // ARRAY DE PROYECTOS 

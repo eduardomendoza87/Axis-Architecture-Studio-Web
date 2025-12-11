@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import proyecto1 from '../../assets/proyecto1/Proyecto_destacado_1.webp';
-import proyecto2 from '../../assets/proyecto2/Proyecto_destacado_2.webp';
-import proyecto3 from '../../assets/proyecto3/Proyecto_destacado_3.webp';
-import proyecto4 from '../../assets/proyecto4/Proyecto_destacado_4.webp';
-import proyecto5 from '../../assets/proyecto5/Proyecto_destacado_5.webp';
-import proyecto6 from '../../assets/proyecto6/Proyecto_destacado_6.webp';
-import proyecto7 from '../../assets/proyecto7/Proyecto_destacado_7.webp';
+import proyecto1 from '../../assets/proyecto1/1-main.webp';
+import proyecto2 from '../../assets/proyecto2/2-main.webp';
+import proyecto3 from '../../assets/proyecto3/3-main.webp';
+import proyecto4 from '../../assets/proyecto4/4-main.webp';
+import proyecto5 from '../../assets/proyecto5/5-main.webp';
+import proyecto6 from '../../assets/proyecto6/6-main.webp';
+import proyecto7 from '../../assets/proyecto7/7-main.webp';
 
 
 export default function InfiniteCarousel() {

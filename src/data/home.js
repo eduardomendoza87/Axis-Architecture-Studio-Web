@@ -3,9 +3,9 @@ import JorgePhoto from '../assets/team/jorge.webp';
 import EnriquePhoto from '../assets/team/Enrique.webp';
 import MariaPhoto from '../assets/team/Maria.webp';
 //proyectos destacados
-import proyecto1 from '../assets/proyecto1/Proyecto_destacado_1.webp';
-import proyecto2 from '../assets/proyecto2/Proyecto_destacado_2.webp';
-import proyecto3 from '../assets/proyecto3/Proyecto_destacado_3.webp';
+import proyecto1 from '../assets/proyecto1/1-main.webp';
+import proyecto2 from '../assets/proyecto2/2-main.webp';
+import proyecto3 from '../assets/proyecto3/3-main.webp';
 
 export const teamMembers = [
   {
