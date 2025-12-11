@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// Images
+/*
 import heroImage from '../assets/home-assets/hero-main.webp';
 import filosofiaImage1 from '../assets/home-assets/home_image.webp';
 import filosofiaImage2 from '../assets/home-assets/home_image_1.webp';
 import filosofiaImage3 from '../assets/home-assets/home_image_2.webp';
 import filosofiaImage4 from '../assets/home-assets/home_image_3.webp';
-import filosofiaImage5 from '../assets/home-assets/home_image_4.webp';
+import filosofiaImage5 from '../assets/home-assets/home_image_4.webp';*/
 
 // Data
 import { teamMembers } from '../data/home';
